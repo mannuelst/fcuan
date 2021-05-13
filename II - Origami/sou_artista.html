@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Origami | Sou Artista</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<style>
+		legend{padding: 0 3px;}
+		article{
+			
+			padding: 10px;
+			margin: 50px auto;
+			max-width: 500px;
+
+		}
+		section{
+			font-size: 100%;
+			margin: 50px auto;
+			max-width: 500px;
+		}
+		fieldset {	
+			border-radius: 10px;
+			height: auto;
+		}
+		section div {
+			padding: 10px;
+		}
+		section p {
+			margin-top: 10px;
+		}
+		fieldset input, textarea{
+			width: 400px;
+			padding: 10px;
+		}
+		input, textarea{
+			border: 1px solid lightgrey;
+			border-radius: 4px;
+		}
+		.enviar input{
+			height: 40px;
+			width: 150px;
+			font-weight: bold;
+			border-radius: 5px;
+			border: 1px solid #f56f3a;
+			cursor: pointer;
+			color: #f56f3a;
+			background-color: #fff;
+
+		}
+		::placeholder{
+			font-family: 'fontbody';
+		}
+		.enviar input:hover{
+			color: #fff;
+			background: #f56f3a;
+		}
+		textarea{
+			width: 400px;
+			height:120px;
+		}
+		.pq textarea{ 
+			width: 400px;
+			height:60px;
+		}
+		
+	</style>
+</head>
+<body><!----Cabeçalho (Logo & Menu)---->
+	<header>
+		<div class="logo"><a href="index.html">Origami</a></div>
+		<nav class="menu">
+			<a href="index.html">Home</a>
+			<a href="artista.html">Artista</a>
+			<a href="galeria.html">Galeria</a>
+			<a href="artigo.html">Artigo</a>
+			<a href="contacto.html">Contacto</a>
+			<a href="sobre.html">Sobre Nós</a>
+		</nav>
+	</header>
+	<!-----Pesquisa----->
+
+	<form class="formpesquisa" action="" method="post">
+		<input type="search" name="pesquisa" placeholder="Pesquisar" required>
+		<input type="submit" name="btpesquisar" value="Pesquisar" class="btpesquisar">
+	</form>
+
+		<!-----Corpo----->
+		<section>
+
+			<article>
+				<p>Você é um talento procurando mais exposição virtual?</p>
+				<p>A ORIGAMI está sempre a procura de novos artistas, para fazer parte basta preencher o formulário que logo entraremos em contacto. </p>
+			</article>
+			<form method="post">
+				<fieldset>
+					 <legend> Sou Artista </legend> 
+					<div>
+						<p class="nomefor">Nome:<br>
+							<input type="text" name="nomefor" placeholder="Informe o nome..." required="required">
+						</p>
+						<p class="emailfor">E-mail:<br>
+							<input type="email" name="emailfor" placeholder="Informe o e-mail..." required="required">
+						</p>
+						<p class="assunto">Contacto:<br>
+							<input type="tel" name="telef" placeholder="Informe o contacto...">
+						</p>
+
+						<p class="bio">Breve Descrição:<br>
+							<textarea name="Bi" placeholder="Deixe uma breve descrição..."></textarea> 
+						</p>
+						
+						<p class="obras">Obra:<br>
+							<input type="file" name="telef" required="required">
+							<input type="file" name="telef" required="required">
+							<input type="file" name="telef" required="required">
+						</p>
+
+						<p class="pq">Por que deseja fazer parte da nossa galeria?<br>
+							<textarea name="pq"></textarea> 
+						</p>
+
+
+						<p class="enviar">
+							<input type="submit" name="enviar" value="Enviar">
+						</p>
+
+					</div>
+				</fieldset>
+			</form>
+		</section>	
+	<footer>
+		 <p>&copy Copyright 2021 Origami | Todos direitos reservado | Desenvolvido pelo<strong><a href="grupo35.html"> Grupo 35</a></strong> </p> 
+	</footer>
+</body>
+</html>
