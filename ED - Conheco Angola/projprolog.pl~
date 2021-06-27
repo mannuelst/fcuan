@@ -1,0 +1,523 @@
+provincia(bengo, angola).
+provincia(benguela, angola).
+provincia(bie, angola).
+provincia(cabinda, angola).
+provincia(cuando_cubango, angola).
+provincia(cunene, angola).
+provincia(huambo, angola).
+provincia(huila, angola).
+provincia(kwanza_sul, angola).
+provincia(kwanza_norte, angola).
+provincia(luanda, angola).
+provincia(lunda_norte, angola).
+provincia(lunda_sul, angola).
+provincia(malanje, angola).
+provincia(moxico, angola).
+provincia(namibe, angola).
+provincia(uige, angola).
+provincia(zaire, angola).
+
+municipio(ambriz, bengo).
+municipio(bula_atumba, bengo).
+municipio(dande, bengo).
+municipio(dembos, bengo).
+municipio(nambuangongo, bengo).
+municipio(pango_aluquem, bengo).
+
+municipio(baia_farta, benguela).
+municipio(balombo, benguela).
+municipio(benguela, benguela).
+municipio(bocoio, benguela).
+municipio(caimbambo, benguela).
+municipio(catumbela, benguela).
+municipio(chongoroi, benguela).
+municipio(cubal, benguela).
+municipio(ganda, benguela).
+municipio(lobito, benguela).
+
+municipio(andulo, bie).
+municipio(camacupa, bie).
+municipio(catabola, bie).
+municipio(chinguar, bie).
+municipio(chitembo, bie).
+municipio(cuemba, bie).
+municipio(cunhingar, bie).
+municipio(cuito, bie).
+municipio(nharea, bie).
+
+municipio(belize, cabinda).
+municipio(cabinda, cabinda).
+municipio(buco_zau, cabinda).
+municipio(cacongo, cabinda).
+
+municipio(calai, cuando_cubango).
+municipio(cuangar, cuando_cubango).
+municipio(cuchi, cuando_cubango).
+municipio(cuito_cuanavale, cuando_cubango).
+municipio(dirico, cuando_cubango).
+municipio(mavinga, cuando_cubango).
+municipio(menongue, cuando_cubango).
+municipio(nancova, cuando_cubango).
+municipio(rivungo, cuando_cubango).
+
+municipio(cahama, cunene).
+municipio(cuanhama, cuando_cubango).
+municipio(curoca, cunene).
+municipio(cuveli, cuando_cubango).
+municipio(namacunde, cunene).
+municipio(ombadja, cuando_cubango).
+
+municipio(huambo, huambo).
+municipio(bailundo, huambo).
+municipio(ekunha, huambo).
+municipio(caala, huambo).
+municipio(catchiiungo, huambo).
+municipio(londuimbali, huambo).
+municipio(longojo, huambo).
+municipio(mungo, huambo).
+municipio(tchicala_tcholonga, huambo).
+municipio(tchindjenje, huambo).
+municipio(ucama, huambo).
+
+municipio(caconda, huila).
+municipio(cacula, huila).
+municipio(caluquembe, huila).
+municipio(gambos, huila).
+municipio(chibia, huila).
+municipio(chicomba, huila).
+municipio(chipindo, huila).
+municipio(cuvango, huila).
+municipio(humpata, huila).
+municipio(jamba, huila).
+municipio(lubango, huila).
+municipio(matala, huila).
+municipio(quilengues, huila).
+municipio(quipungo, huila).
+
+municipio(ambaca, kwanza_norte).
+municipio(banga, kwanza_norte).
+municipio(bolongongo, kwanza_norte).
+municipio(cambambe, kwanza_norte).
+municipio(cazengo, kwanza_norte).
+municipio(golungo_alto, kwanza_norte).
+municipio(lucala, kwanza_norte).
+municipio(ngonguembo, kwanza_norte).
+municipio(quiculungo, kwanza_norte).
+municipio(samba_caju, kwanza_norte).
+
+municipio(sumbe, kwanza_sul).
+municipio(libolo, kwanza_sul).
+municipio(amboim, kwanza_sul).
+municipio(cassongue, kwanza_sul).
+municipio(porto_amboim, kwanza_sul).
+municipio(quibala, kwanza_sul).
+municipio(seles, kwanza_sul).
+municipio(cela, kwanza_sul).
+municipio(mussende, kwanza_sul).
+municipio(quilenda, kwanza_sul).
+municipio(ebo, kwanza_sul).
+municipio(conda, kwanza_sul).
+
+municipio(luanda, luanda).
+municipio(icolo_e_bengo, luanda).
+municipio(quicama, luanda).
+municipio(cacuaco, luanda).
+municipio(cazenga, luanda).
+municipio(viana, luanda).
+municipio(belas, luanda).
+municipio(kilamba_kiaxi, luanda).
+municipio(talatona, luanda).
+
+municipio(cuilo, lunda_norte).
+municipio(caungula, lunda_norte).
+municipio(chitato, lunda_norte).
+municipio(lubalo, lunda_norte).
+municipio(capenda_camulemba, lunda_norte).
+municipio(cuango, lunda_norte).
+municipio(lucapa, lunda_norte).
+municipio(cambulo, lunda_norte).
+municipio(xa_muteba, lunda_norte).
+municipio(lovua, lunda_norte).
+
+municipio(saurimo, lunda_sul).
+municipio(muconda, lunda_sul).
+municipio(cacolo, lunda_sul).
+municipio(dala, lunda_sul).
+
+municipio(calandula, malanje).
+municipio(malanje, malanje).
+municipio(cacuso, malanje).
+municipio(massango, malanje).
+municipio(marimba, malanje).
+municipio(quela, malanje).
+municipio(quirima, malanje).
+municipio(cangandala, malanje).
+municipio(cahombo, malanje).
+municipio(kunda_dya_baze, malanje).
+municipio(cambundi_catembo, malanje).
+municipio(mucari, malanje).
+municipio(kiwaba_nzoli, malanje).
+municipio(luquembo, malanje).
+
+municipio(moxico, moxico).
+municipio(luchazes, moxico).
+municipio(alto_zambeze, moxico).
+municipio(bundas, moxico).
+municipio(luacano, moxico).
+municipio(cameia, moxico).
+municipio(camanongue, moxico).
+municipio(luau, moxico).
+municipio(leua, moxico).
+
+municipio(mocamedes, namibe).
+municipio(tombwa, namibe).
+municipio(bibala, namibe).
+municipio(virei, namibe).
+municipio(camucuio, namibe).
+
+municipio(dange_quitexe, uige).
+municipio(bungo, uige).
+municipio(ambuila, uige).
+municipio(negage, uige).
+municipio(puri, uige).
+municipio(maquela_do_zombo, uige).
+municipio(damba, uige).
+municipio(pombo, uige).
+municipio(bembe, uige).
+municipio(milunga, uige).
+municipio(songo, uige).
+municipio(quimbele, uige).
+municipio(alto_cauale, uige).
+municipio(uige, uige).
+municipio(mucaba, uige).
+municipio(buengas, uige).
+
+municipio(soyo, zaire).
+municipio(mbanza_congo, zaire).
+municipio(nzeto, zaire).
+municipio(tomboco, cuimba).
+municipio(tomboco, noqui).
+municipio(tomboco, zaire).
+
+comuna(cabinda, cabinda).
+comuna(malembo, cabinda).
+comuna(tando_zinze, cabinda).
+
+comuna(cacongo, cacongo).
+comuna(dinge, cacongo).
+comuna(massabi, cacongo).
+
+comuna(buco_zau, buco_zau).
+comuna(necuto, buco_zau).
+comuna(inhuca, buco_zau).
+
+comuna(miconje, belize).
+comuna(belize, belize).
+comuna(luali, belize).
+
+comuna(soyo, soyo).
+comuna(sumba, soyo).
+comuna(pedra_de_feitico, soyo).
+comuna(quelo, soyo).
+comuna(mangue_grande, soyo).
+
+comuna(mbanza_congo, mbanza_congo).
+comuna(luvo, mbanza_congo).
+comuna(caluca, mbanza_congo).
+comuna(madimba, mbanza_congo).
+comuna(quiende, mbanza_congo).
+comuna(calambata, mbanza_congo).
+
+comuna(nzeto, nzeto).
+comuna(quindeje, nzeto).
+comuna(musserra, nzeto).
+comuna(quibala_norte, nzeto).
+
+comuna(tomboco, tomboco).
+comuna(quinsimba, tomboco).
+comuna(quinzau, tomboco).
+
+comuna(cuimba, cuimba).
+comuna(buela, cuimba).
+comuna(serra_de_canda, cuimba).
+comuna(luvaca, cuimba).
+
+comuna(noqui, noqui).
+comuna(lufico, noqui).
+comuna(mpala, noqui).
+
+comuna(quitexe, dange_quitexe).
+comuna(aldeia_vicosa, dange_quitexe).
+comuna(cambamba, dange_quitexe).
+comuna(vista_alegre, dange_quitexe).
+
+comuna(nova_ambuila, ambuila).
+comuna(quipedro, ambuila).
+
+comuna(dicuma, negage).
+comuna(quisseque, negage).
+comuna(negage, negage).
+
+comuna(dicuma, maquela_do_zombo).
+comuna(quibolo, maquela_do_zombo).
+comuna(beu, maquela_do_zombo).
+comuna(sacandica, maquela_do_zombo).
+comuna(cuilo_futa, maquela_do_zombo).
+
+comuna(damba, damba).
+comuna(nsosso, damba).
+comuna(camatambo, damba).
+comuna(lemboa, damba).
+comuna(petecusso, damba).
+
+comuna(sanza_pombo, pombo).
+comuna(cuilo_pombo, pombo).
+comuna(uamba, pombo).
+comuna(alfandega, pombo).
+
+comuna(bembe, bembe).
+comuna(lucunga, bembe).
+comuna(mabaia, bembe).
+
+comuna(macocolo, milunga).
+comuna(maloco, milunga).
+comuna(muinga, milunga).
+comuna(massau, milunga).
+
+comuna(songo, songo).
+comuna(quivenga, songo).
+
+comuna(cuango, quimbele).
+comuna(icoca, quimbele).
+comuna(quimbele, quimbele).
+comuna(alto_zaza, quimbele).
+
+comuna(bengo, alto_cauale).
+comuna(cangola, alto_cauale).
+comuna(caiango, alto_cauale).
+
+comuna(mucaba, mucaba).
+comuna(uando_mucaba, mucaba).
+
+comuna(buenga_sul, buengas).
+comuna(nova_esperanca, buengas).
+comuna(cuilo_camboso, buengas).
+
+comuna(barra_do_dande, dande).
+comuna(caxito, dande).
+comuna(mubabas, dande).
+comuna(quicabo, dande).
+comuna(ucua, dande).
+
+comuna(quibaxe, dembos).
+comuna(piri, dembos).
+comuna(coxe, dembos).
+comuna(paredes, dembos).
+
+comuna(canacassala, nambuangongo).
+comuna(quicunzo, nambuangongo).
+comuna(muxaluando, nambuangongo).
+comuna(quixico, nambuangongo).
+comuna(gombe, nambuangongo).
+comuna(cage, nambuangongo).
+comuna(zala, nambuangongo).
+
+comuna(bula_atumba, bula_atumba).
+comuna(quiage, nambuangongo).
+
+comuna(bela_vista, ambriz).
+comuna(ambriz, ambriz).
+comuna(tabi, ambriz).
+
+comuna(pango_aluquem, pango_aluquem).
+comuna(cazuangongo, pango_aluquem).
+
+comuna(cassoneca, icolo_e_bengo).
+comuna(cabiri, icolo_e_bengo).
+comuna(bom_jesus, icolo_e_bengo).
+comuna(caculo_cahango, icolo_e_bengo).
+comuna(quiminha, icolo_e_bengo).
+
+comuna(muxima, quicama).
+comuna(demba_chio, quicama).
+comuna(quixinge, quicama).
+comuna(mumbolo, quicama).
+comuna(cabo_ledo, quicama).
+
+comuna(funda, cacuaco).
+
+comuna(calumbo, viana).
+
+comuna(barra_do_cuanza, belas).
+
+comuna(mussulo, talatona).
+
+distrito(sambizanga, luanda).
+distrito(rangel, luanda).
+distrito(maianga, luanda).
+distrito(ingombota, luanda).
+distrito(samba, luanda).
+distrito(neves_bendinha, luanda).
+distrito(ngola_kiluanje, luanda).
+distrito(catete, icolo_e_bengo).
+
+distrito(bela_vista, icolo_e_bengo).
+
+distrito(kikolo, cacuaco).
+distrito(cacuaco, cacuaco).
+distrito(mulenvo_de_baixo, cacuaco).
+distrito(sequele, cacuaco).
+
+distrito(cazenga, cazenga).
+distrito(hoji_ya_henda, cazenga).
+distrito(onze_de_novembro, cazenga).
+distrito(kima_kieza, cazenga).
+distrito(kalawenda, cazenga).
+
+distrito(viana, viana).
+distrito(estalagem, viana).
+distrito(kikuxi, viana).
+distrito(baia, viana).
+distrito(zango, viana).
+distrito(vila_flor, viana).
+
+distrito(quenguela, belas).
+distrito(morro_dos_veados, belas).
+distrito(ramiro, belas).
+distrito(vila_verde, belas).
+distrito(cabolombo, belas).
+distrito(kilamba, belas).
+
+distrito(golfe, kilamba_kiaxi).
+distrito(sapu, kilamba_kiaxi).
+distrito(palanca, kilamba_kiaxi).
+distrito(nova_vida, kilamba_kiaxi).
+
+distrito(benfica, talatona).
+distrito(futungo_de_belas, talatona).
+distrito(lar_do_patriota, talatona).
+distrito(talatona, talatona).
+distrito(camama, talatona).
+
+distrito(cidade_universitaria, talatona).
+
+comuna(canhoca, cazengo).
+
+comuna(golungo_alto, golungo_alto).
+comuna(cambondo, golungo_alto).
+comuna(cerca, golungo_alto).
+comuna(quilange, golungo_alto).
+
+comuna(dondo, cambambe).
+comuna(massangano, cambambe).
+comuna(dange_ya_menha, cambambe).
+comuna(zenza_do_itombe, cambambe).
+comuna(sao_pedro_do_quilemba, cambambe).
+
+comuna(samba_caju, samba_caju).
+comuna(samba_lucala, samba_caju).
+
+comuna(camabatela, ambaca).
+comuna(tango, ambaca).
+comuna(maua, ambaca).
+comuna(bindo, ambaca).
+comuna(luinga, ambaca).
+
+comuna(lucala, lucala).
+comuna(quiangombe, lucala).
+
+comuna(banga, banga).
+comuna(caculo, banga).
+comuna(cabaca, banga).
+comuna(aldeia_nova, banga).
+comuna(cariamba, banga).
+
+comuna(bolongongo, bolongongo).
+comuna(terreiro, bolongongo).
+comuna(quiquiemba, bolongongo).
+
+comuna(quilombo_dos_dembos, ngonguembo).
+comuna(camame, ngonguembo).
+comuna(cavunga, ngonguembo).
+
+comuna(sumbe, sumbe).
+comuna(gungo, sumbe).
+comuna(gangula, sumbe).
+comuna(quicombo, sumbe).
+
+comuna(calulo, libolo).
+comuna(munenga, libolo).
+comuna(cabuta, libolo).
+comuna(quissongo, libolo).
+
+comuna(gabela, amboim).
+comuna(assango, amboim).
+
+
+comuna(cassongue, cassongue).
+comuna(pambangala, cassongue).
+comuna(dumbi, cassongue).
+comuna(atome, cassongue).
+
+
+%REGRAS
+comunaPro(C, P):-
+	comuna(C, M),
+	municipio(M, P),
+	provincia(P, angola).
+
+comunaPais(C, angola):-
+	comuna(C, M),
+	municipio(M, P),
+	provincia(P, angola).
+
+distritoPro(D, P):-
+	distrito(D, M),
+	municipio(M, P),
+	provincia(P, angola).
+
+distritoPais(D, angola):-
+	distrito(D, M),
+	municipio(M, P),
+	provincia(P, angola).
+
+pais_dist(angola, D):-
+	distrito(D, M),
+	municipio(M, P),
+	provincia(P, angola).
+
+pais_mun(angola, M):-
+	municipio(M, P),
+	provincia(P, angola).
+
+pais_comun(angola, C):-
+	comuna(C, M),
+	municipio(M, P),
+	provincia(P, angola).
+pais_prov(angola, P):-
+	provincia(P, angola).
+
+prov_dist(P, D):-
+	distrito(D, M),
+	municipio(M, P).
+
+
+prov_mun(P, M):-
+	municipio(M, P).
+
+mun_dist(M, D):-
+	distrito(D, M).
+
+mun_comun(M, C):-
+	comuna(C, M).
+
+
+distritoMunPro(D, municipio(M, provincia(P))):-
+	distrito(D, M),
+	municipio(M, P),
+	provincia(P, angola).
+
+distritoMunProAng(D, municipio(M, provincia(P, angola))):-
+	distrito(D, M),
+	municipio(M, P),
+	provincia(P, angola).
