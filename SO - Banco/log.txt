@@ -1,0 +1,13 @@
+140532797146688: creditar(3, 2500): OK.
+
+140532797146688: creditar(3, 2500): OK.
+
+140532780361280: transferir(3, 2, 750): OK
+140532797146688: lerSaldo(2): O saldo da conta é 750.
+
+140532788753984: debitar(2, 75): OK.
+
+140532780361280: creditar(5, 10000): OK.
+
+140532797146688: lerSaldo(5): O saldo da conta é 10000.
+

@@ -1,0 +1,24 @@
+SIMULACAO: Ano 0
+=================
+Conta 1, Saldo 0
+Conta 2, Saldo 675
+Conta 3, Saldo 1750
+Conta 4, Saldo 0
+Conta 5, Saldo 10000
+
+SIMULACAO: Ano 1
+=================
+Conta 1, Saldo 0
+Conta 2, Saldo 741
+Conta 3, Saldo 1924
+Conta 4, Saldo 0
+Conta 5, Saldo 10999
+
+SIMULACAO: Ano 2
+=================
+Conta 1, Saldo 0
+Conta 2, Saldo 814
+Conta 3, Saldo 2115
+Conta 4, Saldo 0
+Conta 5, Saldo 12097
+
