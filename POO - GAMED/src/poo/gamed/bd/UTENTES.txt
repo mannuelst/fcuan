@@ -1,0 +1,4 @@
+Carlos Eugenio;ce3@mymail.com;1;ACTIVO;LIVRE;1;16/2/2022;
+Carlos Eurico;ceg3@mymail.com;2;ACTIVO;LIVRE;0;16/2/2022;
+Josemar Correia;juca44@mymail.com;3;ACTIVO;LIVRE;0;19/2/2022;
+Terencio Neto;tn@mymail.com;4;ACTIVO;LIVRE;0;19/2/2022;

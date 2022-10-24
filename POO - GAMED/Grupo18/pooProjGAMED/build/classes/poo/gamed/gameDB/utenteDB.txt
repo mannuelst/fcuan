@@ -1,0 +1,3 @@
+Ruffino;ruffino@mymail.com;1;ACTIVO;LIVRE;0;20/4/2022;
+Ducenia;imdu@mymail.com;1;ACTIVO;LIVRE;0;20/4/2022;
+Guillherme;guilherme99@mymail.com;1;ACTIVO;LIVRE;0;20/4/2022;
