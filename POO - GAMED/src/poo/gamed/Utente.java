@@ -7,41 +7,35 @@ package poo.gamed;
 
 /**
  *
- * @author FRIDSON FIRMINO
+ * @author Dzign
  */
-public class Utente extends Object{
+public class Utente extends Object {
     private String nomeUtente;
     private String emailUtente;
-    private int codigoUtente;
-    private boolean estado;
-    private boolean multa;
-    private int totRequisicoes;
-    private String data_registro;
+    private int idUtente;
+    private boolean statusUtente;
+    private boolean multaUtente;
+    private int qntReqUtente;
+    private String dataReg;
     
-    public Utente() {
-        this.totRequisicoes = 0;
+     public Utente() {//Por Padrão o Utente inicia com uma quantidade de Requisição ZERO!!!
+        this.qntReqUtente = 0;
     }
-
-    public Utente(String nome, String email,int codigo,boolean estado,boolean multa,String data,int tot3){
-        this.estado=estado;
-        this.multa=multa;
+    public Utente(String nome, String email,int id,boolean estado,boolean multa,String data,int iQntReq){
+        this.statusUtente=estado;
+        this.multaUtente=multa;
         this.nomeUtente=nome;
         this.emailUtente=email;
-        this.codigoUtente=codigo;
-        this.totRequisicoes = tot3;
-        this.data_registro = data; 
+        this.idUtente=id;
+        this.qntReqUtente = iQntReq;
+        this.dataReg = data; 
     }
-
-    public void setData_registro(String data_registro) {
-        this.data_registro = data_registro;
-    }
-    
-    public String getData_registro() {
-       return this.data_registro;
+    public void setDataReg(String dataR) {
+        this.dataReg = dataR;
     }
     
-    public Utente retUtente(Utente utente){
-        return new Utente(utente.getNomeUtente(),utente.getEmailUtente(),utente.getCodigoUtente(),utente.estado,utente.multa,utente.getData_registro(),utente.getTotRequisicoes());
+    public String getDataReg() {
+       return this.dataReg;
     }
 
     public String getNomeUtente() {
@@ -57,46 +51,44 @@ public class Utente extends Object{
     }
 
     public void setEmailUtente(String emailUtente) {
-        if(!emailUtente.contains("@mymail.com")) this.emailUtente = emailUtente + "@mymail.com";
+        if(!emailUtente.contains("@mymail.com"))this.emailUtente = emailUtente + "@mymail.com";
         else this.emailUtente = emailUtente;
     }
 
-    public int getCodigoUtente() {
-        return codigoUtente;
+    public int getIdUtente() {
+        return idUtente;
     }
 
     public void setCodigoUtente(int codigoUtente) {
-        this.codigoUtente = codigoUtente;
+        this.idUtente = codigoUtente;
     }
 
-    public String getEstado() {
-        if(estado == true && multa != true && totRequisicoes < 3) return "ACTIVO";
+    public String getStatusUtente() {
+        if(statusUtente == true && multaUtente != true && qntReqUtente < 3) return "ACTIVO";
         return "SUSPENSO";
     }
 
-    public void setEstado(boolean estado) {
-        this.estado = estado;
+    public void setStatusUtente(boolean estado) {
+        this.statusUtente = estado;
     }
 
-    public String getMulta() {
-        if(multa==true) return "MULTADO";
+    public String getMultaUtente() {
+        if(multaUtente==true) return "MULTADO";
         return "LIVRE";
     }
 
-    public void setMulta(boolean multa) {
-        this.multa = multa;
+    public void setMultaUtente(boolean multa) {
+        this.multaUtente = multa;
     }
 
-    public int getTotRequisicoes() {
-        return totRequisicoes;
+    public int getQntReqUtente() {
+        return qntReqUtente;
     }
     
-    public void setTotRequisicoes(int tot) {
-        this.totRequisicoes +=tot;
+    public void setQntReqUtente(int iQnt) {
+        this.qntReqUtente +=iQnt;
     }
-    
-    
-    
+    public Utente returnUtente(Utente utente){//Retorna Utente!
+        return new Utente(utente.getNomeUtente(),utente.getEmailUtente(),utente.getIdUtente(),utente.statusUtente,utente.multaUtente,utente.getDataReg(),utente.getQntReqUtente());
+    }
 }
-
-

@@ -7,13 +7,13 @@ package poo.gamed.exception;
 
 /**
  *
- * @author Benvindo Alves
+ * @author Dzign
  */
 @SuppressWarnings("serial")
 public class RuleFailedException  extends Exception{
-    public String mensagem;
+    public String exSMS;
     public RuleFailedException() {
-        mensagem = "Requisicao Não Pode Ser Efectuada...\nUtente Quebrou Uma Das Regras Impostas!!!";
+        exSMS = "Erro Na Requisição!\nEste Utente Não Pode Efectual Esta Pedido!";
     }
     
 }

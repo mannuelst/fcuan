@@ -7,13 +7,13 @@ package poo.gamed.exception;
 
 /**
  *
- * @author FRIDSON FIRMINO
+ * @author Dzign
  */
 @SuppressWarnings("serial")
 public class NoSuchUserException extends Exception{
-    public String mensagem;
+    public String exSMS;
     public NoSuchUserException() {
-        mensagem = "Utente Não Existe";
+       exSMS = "Utente Inexistente!";
     }
     
 }

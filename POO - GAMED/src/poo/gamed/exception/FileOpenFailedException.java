@@ -7,13 +7,13 @@ package poo.gamed.exception;
 
 /**
  *
- * @author Benvindo Alves
+ * @author Dzign
  */
 @SuppressWarnings("serial")
 public class FileOpenFailedException  extends Exception{
-    public String mensagem;
+    public String exSMS;
     public FileOpenFailedException() {
-        mensagem = "Falha na abertura do ficheiro, ficheiro não encontrado";
+        exSMS = "Erro na abertura do ficheiro!\nFicheiro não encontrado";
     }
     
 }

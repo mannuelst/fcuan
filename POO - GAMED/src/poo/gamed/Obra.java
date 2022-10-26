@@ -7,83 +7,79 @@ package poo.gamed;
 
 /**
  *
- * @author FRIDSON FIRMINO
+ * @author Dzign
  */
-public class Obra extends Object{
-    private String titulo;
-    private String tipo;
-    private double preco;
+public class Obra {
+    private String tituloObra;
+    private String tipoObra;
+    private double precoObra;
     private String idObra;
-    private int qtdExemplar;
-    private int exemplaresDispo;
-    private String categoria;
-    private String data_registro;
+    private int qtdEx;//Qnt Exemplares
+    private int qntExFREE;//Qnt Exemplares(Obras) Disponível
+    private String catObra;
+    private String dataRegObra;
 
-    public String getTitulo() {
-        return titulo;
-    }
-
-
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
+    public String getTituloObra() {
+        return tituloObra;
     }
 
-    public String getTipo() {
-        return tipo;
+    public void setTituloObra(String tituloObra) {
+        this.tituloObra = tituloObra;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-    
-    public double getPreco() {
-        return preco;
+    public String getTipoObra() {
+        return tipoObra;
     }
 
-    public void setPreco(double preco) {
-        this.preco = preco;
+    public void setTipoObra(String tipoObra) {
+        this.tipoObra = tipoObra;
     }
-    
-    public void setIdObra(String id) {
-        this.idObra = id;
+
+    public double getPrecoObra() {
+        return precoObra;
     }
-    
+
+    public void setPrecoObra(double precoObra) {
+        this.precoObra = precoObra;
+    }
+
     public String getIdObra() {
-        return this.idObra;
+        return idObra;
     }
 
-    public int getQtdExemplar() {
-        return qtdExemplar;
+    public void setIdObra(String idObra) {
+        this.idObra = idObra;
     }
 
-    public void setQtdExemplar(int qtdExemplar) {
-        this.qtdExemplar = qtdExemplar;
+    public int getQtdEx() {
+        return qtdEx;
     }
 
-    public String getCategoria() {
-        return categoria;
+    public void setQtdEx(int qtdEx) {
+        this.qtdEx = qtdEx;
     }
 
-    public void setCategoria(String categoria) {
-        this.categoria = categoria;
+    public int getQntExFREE() {
+        return qntExFREE;
     }
 
-    public int getExemplaresDispo() {
-        return exemplaresDispo;
+    public void setQntExFREE(int qntEx) {
+        this.qntExFREE += qntEx;
     }
 
-    public void setExemplaresDispo(int qtdExemplar) {
-        this.exemplaresDispo += qtdExemplar;
+    public String getCatObra() {
+        return catObra;
     }
-    
-    public void setData_registro(String data_registro) {
-        this.data_registro = data_registro;
+
+    public void setCatObra(String catObra) {
+        this.catObra = catObra;
     }
-    
-    public String getData_registro() {
-        return this.data_registro;
+
+    public String getDataRegObra() {
+        return dataRegObra;
     }
-    
-    
-    
+
+    public void setDataRegObra(String dataRegObra) {
+        this.dataRegObra = dataRegObra;
+    }
 }

@@ -8,13 +8,13 @@ package poo.gamed.exception;
 
 /**
  *
- * @author Benvindo Alves
+ * @author Dzign
  */
 @SuppressWarnings("serial")
 public class WorkNotBorrowedByUserException extends Exception{
-    public String mensagem;
+    public String exSMS;
     public WorkNotBorrowedByUserException() {
-        mensagem = "Utente Não Requisitou Esta Obra!!!";
+       exSMS = "Utente Não Requisitou Esta Obra!!!";
     }
 
 }
