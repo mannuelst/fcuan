@@ -1,0 +1,1 @@
+Admin {nomeAdmin = "grupo06", senhaAdmin = "pnp2023"}
