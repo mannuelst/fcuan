@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1650124291 source:c:\users\edvaldo\onedrive\ambiente de trabalho\sepp\sep\main.c
+	"posto_ls.h"
+
+1650180007 c:\users\edvaldo\onedrive\ambiente de trabalho\sepp\sep\posto_ls.h
+	"urna_ls.h"
+
+1650137132 c:\users\edvaldo\onedrive\ambiente de trabalho\sepp\sep\fila.h
+	"eleitor_lsl.h"
+
+1650142701 c:\users\edvaldo\onedrive\ambiente de trabalho\sepp\sep\eleitor_lsl.h
+	"partido_ls.h"
+
+1650182982 c:\users\edvaldo\onedrive\ambiente de trabalho\sepp\sep\partido_ls.h
+	"estruturas.h"
+
+1650182486 c:\users\edvaldo\onedrive\ambiente de trabalho\sepp\sep\estruturas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1650183999 c:\users\edvaldo\onedrive\ambiente de trabalho\sepp\sep\urna_ls.h
+	"fila.h"
+
+1650188985 source:c:\users\edvaldo\onedrive\ambiente de trabalho\grupo_18\sep\main.c
+	"estatistica.h"
+
+1650180007 c:\users\edvaldo\onedrive\ambiente de trabalho\grupo_18\sep\posto_ls.h
+	"urna_ls.h"
+
+1650197770 c:\users\edvaldo\onedrive\ambiente de trabalho\grupo_18\sep\urna_ls.h
+	"fila.h"
+
+1650137132 c:\users\edvaldo\onedrive\ambiente de trabalho\grupo_18\sep\fila.h
+	"eleitor_lsl.h"
+
+1650196784 c:\users\edvaldo\onedrive\ambiente de trabalho\grupo_18\sep\eleitor_lsl.h
+	"partido_ls.h"
+
+1650188645 c:\users\edvaldo\onedrive\ambiente de trabalho\grupo_18\sep\partido_ls.h
+	"estruturas.h"
+
+1650198101 c:\users\edvaldo\onedrive\ambiente de trabalho\grupo_18\sep\estruturas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1650201330 c:\users\edvaldo\onedrive\ambiente de trabalho\grupo_18\sep\estatistica.h
+	"posto_ls.h"
+
