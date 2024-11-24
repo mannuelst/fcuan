@@ -1,2 +1,2 @@
-# acadLAB
-Desenvolvimento de projectos acadêmicos
+Projectos semestrais by FCUAN
+
